@@ -11,3 +11,12 @@ The model is divided into the following sections:
 -Data cleaning
 -Data preparation
 -Model building and evaluation
+
+Algorithm used- Random Forest
+Random Forest is an ensemble learning based regression model. It uses a model called decision
+tree, specifically as the name suggests, multiple decision trees to generate the ensemble model
+which collectively produces a prediction. The benefit of this model is that the trees are produced in
+parallel and are relatively uncorrelated, thus producing good results as each tree is not prone to
+individual errors of other trees. This uncorrelated behavior is partly ensured by the use of Bootstrap
+Aggregation or bagging providing the randomness required to produce robust and uncorrelated
+trees. This model was hence chosen to account for the large number of features in the dataset.
